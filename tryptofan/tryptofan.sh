@@ -11,4 +11,4 @@ then
                             # Note: dash (-) necessary
 fi
 
-source venv/bin/activate && python tryptofan.py --settings=settings.$1
+python tryptofan.py --settings=settings.$1

@@ -1,7 +1,10 @@
-from conf import settings
+import json
+import logging
 
 from tornado.web import StaticFileHandler
 from tornado.websocket import WebSocketHandler
+
+logger = logging.getLogger('tryptofan')
 
 
 class IndexStaticFileHandler(StaticFileHandler):
@@ -13,19 +16,21 @@ class IndexStaticFileHandler(StaticFileHandler):
 
 
 class ControllerHandler(WebSocketHandler):
-    tryptofan = None
+    def initialize(self, tryptofan):
+        self.tryptofan = tryptofan
+
+    def check_origin(self, origin):
+        return True
 
     def open(self):
         self.tryptofan.add_controller_client(self)
-
-    def check_origin(self, origin):
-        if settings.DEBUG:
-            return True
-        else:
-            return super().check_origin(origin)
+        self.write_message(json.dumps(self.tryptofan.state))
 
     def on_message(self, message):
-        pass
+        try:
+            self.tryptofan.set_state(self, json.loads(message))
+        except:
+            logger.exception("Could not load state from controller")
 
     def on_close(self):
         self.tryptofan.remove_controller_client(self)

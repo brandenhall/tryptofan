@@ -1,0 +1,136 @@
+2015-01-25 10:49:05.082 INFO [tryptofan:33] Starting Tryptofan...
+2015-01-25 10:52:45.006 WARNING [tryptofan:69] Caught signal: 2
+2015-01-25 10:52:45.006 INFO [tryptofan:73] Stopping Tryptofan...
+2015-01-25 10:52:45.006 ERROR [tryptofan:79] Could not close servers gracfully. can't multiply sequence by non-int of type 'NoneType'
+2015-01-25 10:52:45.007 INFO [tryptofan:83] Shutdown
+2015-01-25 10:53:59.155 INFO [tryptofan:33] Starting Tryptofan...
+2015-01-25 10:54:20.925 WARNING [tryptofan:69] Caught signal: 2
+2015-01-25 10:54:20.925 INFO [tryptofan:73] Stopping Tryptofan...
+2015-01-25 10:54:20.926 ERROR [tryptofan:79] Could not close servers gracfully. can't multiply sequence by non-int of type 'NoneType'
+2015-01-25 10:54:20.926 INFO [tryptofan:83] Shutdown
+2015-01-25 10:55:56.004 INFO [tryptofan:33] Starting Tryptofan...
+2015-01-25 10:56:01.651 WARNING [tryptofan:70] Caught signal: 2
+2015-01-25 10:56:01.651 INFO [tryptofan:74] Stopping Tryptofan...
+2015-01-25 10:56:01.651 ERROR [tryptofan:81] Could not close servers gracfully.
+Traceback (most recent call last):
+  File "tryptofan.py", line 78, in shutdown
+    self.clear()
+  File "tryptofan.py", line 65, in clear
+    self.pixels = [(0, 0, 0)] * settings.PIXEL_COUNT
+TypeError: can't multiply sequence by non-int of type 'NoneType'
+2015-01-25 10:56:01.651 INFO [tryptofan:85] Shutdown
+2015-01-25 10:57:37.959 INFO [tryptofan:33] Starting Tryptofan...
+2015-01-25 10:57:43.089 WARNING [tryptofan:70] Caught signal: 2
+2015-01-25 10:57:43.089 INFO [tryptofan:74] Stopping Tryptofan...
+2015-01-25 10:57:43.393 INFO [tryptofan:85] Shutdown
+2015-01-25 10:58:27.675 INFO [tryptofan:33] Starting Tryptofan...
+2015-01-25 10:58:31.462 WARNING [web:1811] 404 GET /js/boostrap.min.js (::1) 0.66ms
+2015-01-25 10:58:31.463 WARNING [web:1811] 404 GET /js/tryptofan.js (::1) 0.72ms
+2015-01-25 10:58:31.607 WARNING [web:1811] 404 GET /favicon.ico (::1) 0.51ms
+2015-01-25 10:59:39.463 WARNING [tryptofan:70] Caught signal: 2
+2015-01-25 10:59:39.463 INFO [tryptofan:74] Stopping Tryptofan...
+2015-01-25 10:59:39.464 INFO [tryptofan:85] Shutdown
+2015-01-25 10:59:40.118 INFO [tryptofan:33] Starting Tryptofan...
+2015-01-25 10:59:44.585 WARNING [web:1811] 404 GET /js/tryptofan.js (::1) 0.44ms
+2015-01-25 10:59:44.590 WARNING [web:1811] 404 GET /js/boostrap.min.js (::1) 0.58ms
+2015-01-25 11:49:11.912 WARNING [tryptofan:70] Caught signal: 2
+2015-01-25 11:49:11.913 INFO [tryptofan:74] Stopping Tryptofan...
+2015-01-25 11:49:11.915 INFO [tryptofan:85] Shutdown
+2015-01-25 15:20:03.175 INFO [tryptofan:38] Starting Tryptofan...
+2015-01-25 15:20:03.178 INFO [blade:50] 25.0
+2015-01-25 15:20:03.178 INFO [blade:50] 25.0
+2015-01-25 15:20:03.178 INFO [blade:50] 25.0
+2015-01-25 15:20:04.600 WARNING [tryptofan:85] Caught signal: 2
+2015-01-25 15:20:04.600 INFO [tryptofan:89] Stopping Tryptofan...
+2015-01-25 15:20:05.200 INFO [tryptofan:100] Shutdown
+2015-01-25 15:52:04.116 INFO [tryptofan:38] Starting Tryptofan...
+2015-01-25 15:52:12.259 WARNING [web:1811] 404 GET /js/boostrap.min.js (::1) 0.80ms
+2015-01-25 15:52:12.310 INFO [tryptofan:65] Controller client connected
+2015-01-25 15:52:34.713 INFO [handlers:30] [["1",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.714 INFO [handlers:30] [["2",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.714 INFO [handlers:30] [["4",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.715 INFO [handlers:30] [["9",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.715 INFO [handlers:30] [["17",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.716 INFO [handlers:30] [["25",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.716 INFO [handlers:30] [["39",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.717 INFO [handlers:30] [["41",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.717 INFO [handlers:30] [["42",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.718 INFO [handlers:30] [["43",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.718 INFO [handlers:30] [["44",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.719 INFO [handlers:30] [["45",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.719 INFO [handlers:30] [["48",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.719 INFO [handlers:30] [["52",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.721 INFO [handlers:30] [["57",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.721 INFO [handlers:30] [["62",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.722 INFO [handlers:30] [["65",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.722 INFO [handlers:30] [["67",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.723 INFO [handlers:30] [["68",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.723 INFO [handlers:30] [["69",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.723 INFO [handlers:30] [["70",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.724 INFO [handlers:30] [["72",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.724 INFO [handlers:30] [["78",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.725 INFO [handlers:30] [["90",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.725 INFO [handlers:30] [["103",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.725 INFO [handlers:30] [["129",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.726 INFO [handlers:30] [["149",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:34.726 INFO [handlers:30] [["155",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:40.352 INFO [handlers:30] [["151",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:40.353 INFO [handlers:30] [["149",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:40.354 INFO [handlers:30] [["145",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:40.355 INFO [handlers:30] [["138",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:40.355 INFO [handlers:30] [["129",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:40.356 INFO [handlers:30] [["116",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:40.356 INFO [handlers:30] [["94",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:40.357 INFO [handlers:30] [["80",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:40.357 INFO [handlers:30] [["67",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:40.358 INFO [handlers:30] [["57",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:40.358 INFO [handlers:30] [["46",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:40.359 INFO [handlers:30] [["35",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:40.359 INFO [handlers:30] [["18",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:40.360 INFO [handlers:30] [["9",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:40.360 INFO [handlers:30] [["2",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:52:40.360 INFO [handlers:30] [["0",0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:21.810 WARNING [tryptofan:85] Caught signal: 2
+2015-01-25 15:53:21.811 INFO [tryptofan:89] Stopping Tryptofan...
+2015-01-25 15:53:22.216 INFO [tryptofan:100] Shutdown
+2015-01-25 15:53:23.417 INFO [tryptofan:38] Starting Tryptofan...
+2015-01-25 15:53:24.228 INFO [tryptofan:65] Controller client connected
+2015-01-25 15:53:26.858 INFO [tryptofan:69] Controller client disconnected
+2015-01-25 15:53:26.909 WARNING [web:1811] 404 GET /js/boostrap.min.js (::1) 0.87ms
+2015-01-25 15:53:26.954 INFO [tryptofan:65] Controller client connected
+2015-01-25 15:53:30.574 INFO [handlers:30] [[4,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.574 INFO [handlers:30] [[5,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.575 INFO [handlers:30] [[7,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.575 INFO [handlers:30] [[10,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.576 INFO [handlers:30] [[19,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.576 INFO [handlers:30] [[25,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.576 INFO [handlers:30] [[35,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.577 INFO [handlers:30] [[55,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.578 INFO [handlers:30] [[71,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.578 INFO [handlers:30] [[86,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.578 INFO [handlers:30] [[100,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.579 INFO [handlers:30] [[110,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.579 INFO [handlers:30] [[116,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.580 INFO [handlers:30] [[119,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.580 INFO [handlers:30] [[120,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.580 INFO [handlers:30] [[122,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.581 INFO [handlers:30] [[123,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.581 INFO [handlers:30] [[124,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.582 INFO [handlers:30] [[125,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.605 INFO [handlers:30] [[124,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.637 INFO [handlers:30] [[123,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.654 INFO [handlers:30] [[122,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.671 INFO [handlers:30] [[117,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.687 INFO [handlers:30] [[111,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.704 INFO [handlers:30] [[100,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.722 INFO [handlers:30] [[91,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.738 INFO [handlers:30] [[77,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.755 INFO [handlers:30] [[65,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.772 INFO [handlers:30] [[55,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.789 INFO [handlers:30] [[45,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.806 INFO [handlers:30] [[35,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.824 INFO [handlers:30] [[22,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:30.841 INFO [handlers:30] [[19,0,0],[0,0,0],[0,0,0]]
+2015-01-25 15:53:35.770 WARNING [tryptofan:85] Caught signal: 2
+2015-01-25 15:53:35.770 INFO [tryptofan:89] Stopping Tryptofan...
+2015-01-25 15:53:36.175 INFO [tryptofan:100] Shutdown
